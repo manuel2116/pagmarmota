@@ -1,0 +1,151 @@
+#banner{
+  background-color:white ;
+  color: white;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+#banner ul{
+  list-style: none;
+  border-radius: 10px;
+
+}
+#banner ul li{
+  display: inline-block;
+  border-radius: 10px;
+  padding-left: 3%;
+
+}
+.mundo{
+  width: 60%;
+  border-radius: 10px;
+  border-bottom: 5%;
+
+}
+#marco{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 69%;
+  margin-left: 15%;
+}
+.up{
+  padding-bottom: 110%;
+  width: 70%;
+  padding-left: 130%
+
+}
+.down{
+  display: inline-block;
+  width: 100%;
+  padding-left: 110%
+
+}
+#navegacion{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: 20%;
+  font-size: 15px;
+}
+#navegacion ul{
+  list-style: none;
+  display: block;
+
+}
+#navegacion ul li{
+display: inline-block;
+  margin: 3%;
+  font-size: 10px;
+}
+#portada ul{
+  list-style: none;
+  padding-bottom: 0%;
+}
+#portada ul li{
+  display: inline-block;
+}
+#portada ul li img{
+  border-radius: 20px;
+}
+.marmota{
+  padding-left: 10%;
+}
+#introduccion ul{
+  list-style: none;
+
+}
+#introduccion ul li{
+  display: inline-block;
+  margin: 0%;
+}
+#introduccion ul li table tr th p{
+  color: blue;
+  margin: 5px;
+}
+#introduccion ul li table{
+  border-color: white;
+  border: 5px;
+  background-color: gray;
+}
+#introduccion ul li table tr {
+  border-color: white;
+}
+.texto{
+  width: 50%;
+  text-align: justify;
+  padding-left: 0%;
+}
+.titulo{
+  padding-bottom: -500px;
+}
+.subtitulo{
+  padding-bottom: -100px;
+}
+.intro{
+  padding-right: 0%;
+}
+#introduccion ul li ul li{
+  display: inline-inline-block;
+}
+.letras{
+  font-size: 15px;
+  padding-left: -50px;
+}
+#anatomia table tr td{
+  font-size: 15px;
+  padding-left: : -30%;
+}
+#anatomia table{
+  text-align: justify;
+}
+.texto2{
+  width: 60%;
+  font-size: 50%;
+  padding-left: -15%;
+}
+#alimentacion{
+  padding-top: 20px;
+  text-align:justify;
+  margin: 20px;
+
+}
+#comportamiento{
+  text-align: justify;
+  margin: 20px;
+}
+#reproduccion{
+  text-align: justify;
+  margin: 20px;
+}
+#distribucion{
+  text-align: justify;
+  margin: 20px;
+}
+#distribucion table tr td img{
+  margin: 20px;
+}
+#marmotona{
+  width: 60%;
+  padding-left: 7%;
+}
