@@ -1,62 +1,56 @@
-#banner{
-  background-color:white ;
-  color: white;
-  border-radius: 10px;
-  width: 80%;
+#banner table{
+  background-color: black;
   margin-left: 10%;
+  width: 80%;
+  border-radius: 10px;
 }
-#banner ul{
+#banner table tr td{
+  color: white;
+}
+.arriba{
+  padding-bottom: 70px;
+  margin-left: -90px;
+}
+.abajo{
+  margin-left: -100px;
+
+}
+#portada{
+  margin-left: 10%;
+  width: 90%
+}
+ul, ol{
   list-style: none;
-  border-radius: 10px;
-
 }
-#banner ul li{
-  display: inline-block;
-  border-radius: 10px;
-  padding-left: 3%;
-
+.nav li a{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 20px 20px;
+  display: block;
 }
-.mundo{
-  width: 60%;
-  border-radius: 10px;
-  border-bottom: 5%;
-
+.nav > li{
+  float: left;
+}
+.nav li ul li a{
+  margin-left:  -35%;
+}
+.nav li a:hover{
+  background-color: blue;
+}
+.nav li ul{
+  display: none;
+  position: absolute;
+}
+.nav li:hover > ul{
+  display: block;
 }
 #marco{
   background-color: black;
   color: white;
   border-radius: 20px;
-  width: 69%;
-  margin-left: 15%;
-}
-.up{
-  padding-bottom: 110%;
-  width: 70%;
-  padding-left: 130%
-
-}
-.down{
-  display: inline-block;
-  width: 100%;
-  padding-left: 110%
-
-}
-#navegacion{
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  height: 20%;
-  font-size: 15px;
-}
-#navegacion ul{
-  list-style: none;
-  display: block;
-
-}
-#navegacion ul li{
-display: inline-block;
-  margin: 3%;
-  font-size: 10px;
+  width: 80%;
+  margin-left: 10%;
 }
 #portada ul{
   list-style: none;
@@ -94,7 +88,7 @@ display: inline-block;
 .texto{
   width: 50%;
   text-align: justify;
-  padding-left: 0%;
+  padding-left: 3%;
 }
 .titulo{
   padding-bottom: -500px;
@@ -148,4 +142,25 @@ display: inline-block;
 #marmotona{
   width: 60%;
   padding-left: 7%;
+}
+footer{
+  background-color: black;
+  width: 80%;
+  height: 100px;
+  margin-left:10%;
+  margin-top: 3%;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+footer ul li{
+  display: inline-block;
+  color: white;
+  padding-top: 3%;
+}
+footer ul li svg{
+  background-color: white;
+  color: red;
+}
+.email{
+  padding-left: 80%;
 }
